@@ -24,6 +24,16 @@ const setupInput = function(conn) {
       if (key === 'd'){
         conn.write('Move: right')
       }
+      if (key === 'i'){
+        conn.write('Say: Sup')
+      }
+      if(key === 'o'){
+        conn.write('Say: Yeet')
+      }
+      if (key === 'p'){
+        conn.write('Say: Ayo')
+      }
+      
     };
     handleUserInput()
   })
